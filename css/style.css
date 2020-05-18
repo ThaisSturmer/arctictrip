@@ -1,0 +1,230 @@
+body {
+    margin: 0px;
+}
+
+section {
+    padding: 80px 0;
+}
+
+h1 {
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 38px;
+color: #172551;
+margin: 0px;
+}
+
+h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;   
+    color: #172551;    
+    margin: 0px;
+}
+h3{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+}
+
+p {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+color:#8790AB; 
+}
+
+.logo {
+    width: 181px;
+}
+
+.lista li{
+    list-style-type: none;
+    display: inline;
+    margin: 0px 20px;
+}
+
+.lista li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #172551;
+    font-size: 12px;
+    font-family: 'Montserrat';
+}
+.button{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #172551;
+    font-size: 12px;
+    font-family: 'Montserrat';
+    padding: 10px 30px;
+    background-color: #F4C96A;
+    border-radius: 4px;
+    /* margin: 15px 0px; */
+}
+.button2{
+    text-decoration: none; 
+    text-transform: uppercase;
+    color: #172551;
+    font-size: 12px;
+    font-family: 'Montserrat';
+    padding: 10px 30px;
+    background-color: #F9F7F1;
+    border-radius: 4px;
+    border: 1px solid #172551;
+    box-sizing: border-box;
+
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    box-shadow: 0px 0px 8px grey;
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+
+}
+.first {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: center; 
+text-align: center;
+background: url(../img/hero-img.png);
+background-size: cover;
+background-position: bottom;
+height: 90vh;
+width: 100%;
+}
+
+.mission {
+    display: flex;
+    align-items: center; 
+    text-align: center; 
+    flex-direction: column;
+    
+
+}
+.topics{
+    flex-wrap: wrap;
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+}
+
+.third{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+background-color: #F9F7F1;
+justify-content: space-evenly;
+align-items: center;
+width: 100%;
+}
+
+.expeditionimg{
+    width: 420px;
+    height: 375px;
+    padding: 15px 0px;
+}
+.exped {
+    width: 350px;
+    height: 250px;
+}
+.joinimg {
+    width: 420px;
+    height: 375px;
+}
+.join {
+    width: 350px;
+    height: 250px;
+    
+}
+.gallery{
+    display: flex;
+    align-content: space-between;
+    text-align: center; 
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+}
+.galtext{
+width: 600px;
+}
+.bottom {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+.bottomtext{
+    width: 600px;
+}
+.submit{
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#email{
+    border: 1px solid #979797;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 300px; 
+    padding: 10px;
+    margin-right: 30px;
+    text-transform: uppercase;
+}
+
+    
+.tripimg{
+    width: 275px;
+    height: 430px;
+    margin: 30px 20px;
+}
+.footer{ 
+    background-color: #172551;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+    width: 100%;
+}
+
+.listafooter li{
+    list-style-type: none;
+    display: inline;
+    color: #ffffff;
+    margin: 0px 20px;
+}
+
+.listafooter li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 12px;
+    font-family: 'Montserrat';  
+}
+
+.footerbutton1{
+    margin: 0px 15px;
+}
+
+
+.column{
+    width: 230px;
+
+}
+.space {
+    height: 40px;
+}
